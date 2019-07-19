@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "ad5c2b8d-828c-49ea-811a-7d76fe0606ed",
+		"name": "GeneralTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Send Notification",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "AIzaSyAz4esD6gJ4Mnoxa_uRhwwkk0dLHRuX0Cw",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"to\" : \"eJv-tYjzOqQ:APA91bHxp7pcl6RMexy1nXLrI4U3K4dR72UANM1adAXhfNx_UcT-oTrpHmGorewN9P18CrxzqzWfNZ8UASRRPllb-CuLRujfLk0ONSqficvCr75Ti85inXr5qek33GFUDsKQkTMRHZKW\",\n \"collapse_key\" : \"type_a\",\n \"notification\" : {\n     \"body\" : \"Body of Your Notification\",\n     \"title\": \"Title of Your Notification\"\n },\n \"data\" : {\n     \"body\" : \"Body of Your Notification in Data\",\n     \"title\": \"Title of Your Notification in Title\",\n     \"key_1\" : \"Value for key_1\",\n     \"key_2\" : \"Value for key_2\"\n }\n}"
+				},
+				"url": {
+					"raw": "https://fcm.googleapis.com/fcm/send",
+					"protocol": "https",
+					"host": [
+						"fcm",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"fcm",
+						"send"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

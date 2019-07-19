@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/RemindMe-master" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Signal-Android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-oss" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test/CanvasOverlay" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test/PhotoServiceAgent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test/gpp/gpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test/iap-codelab/play-billing-codelab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test/tablayoutViewPager" vcs="Git" />
+  </component>
+</project>
