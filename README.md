@@ -1,2 +1,3 @@
 # pushme
-A simple Firebase PushNotification test app. Go wild!
+A simple Firebase PushNotification app showcasing how push notification can be manually disabled from client.
+No subscription technique used.
